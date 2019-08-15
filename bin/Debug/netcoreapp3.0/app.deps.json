@@ -1,0 +1,59 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "app/1.0.0": {
+        "dependencies": {
+          "Microsoft.NETCore.App": "3.0.0-preview7-27823-03",
+          "System.Drawing.Common": "4.5.0-preview1-25718-03"
+        },
+        "runtime": {
+          "app.dll": {}
+        }
+      },
+      "Microsoft.NETCore.App/3.0.0-preview7-27823-03": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.0.0-preview7.19320.1"
+        }
+      },
+      "Microsoft.NETCore.Platforms/3.0.0-preview7.19320.1": {},
+      "System.Drawing.Common/4.5.0-preview1-25718-03": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.0.0-preview7.19320.1"
+        }
+      }
+    }
+  },
+  "libraries": {
+    "app/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.NETCore.App/3.0.0-preview7-27823-03": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-k8EUZTUNrFaWzN2zd5LOin5c5i2TCpDp8h4kV2UebTMgeEhvutvhZF756WbVycBO67hD7Onrq38soqqCbq+3kw==",
+      "path": "microsoft.netcore.app/3.0.0-preview7-27823-03",
+      "hashPath": "microsoft.netcore.app.3.0.0-preview7-27823-03.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/3.0.0-preview7.19320.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-956mV5h3URZMlQ17oxKRhr3fYk6qI3Ep+ViB24qvazr8K8cE0woZZ4VyowsBNYWGsJhcfOocYFZamXsI6RMoFA==",
+      "path": "microsoft.netcore.platforms/3.0.0-preview7.19320.1",
+      "hashPath": "microsoft.netcore.platforms.3.0.0-preview7.19320.1.nupkg.sha512"
+    },
+    "System.Drawing.Common/4.5.0-preview1-25718-03": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LqnS1oesMxiig9qtw9fy9agg60dX71ywZ+DzDwbp4ktdMcos9fgwWO/J9XAuPdjcOfZvaDBWzzYvdSrVDHUU0A==",
+      "path": "system.drawing.common/4.5.0-preview1-25718-03",
+      "hashPath": "system.drawing.common.4.5.0-preview1-25718-03.nupkg.sha512"
+    }
+  }
+}

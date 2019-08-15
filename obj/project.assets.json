@@ -1,0 +1,169 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "Microsoft.NETCore.App/3.0.0-preview7-27823-03": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.0.0-preview7.19320.1"
+        }
+      },
+      "Microsoft.NETCore.Platforms/3.0.0-preview7.19320.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/_._": {}
+        }
+      },
+      "System.Drawing.Common/4.5.0-preview1-25718-03": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "2.0.0"
+        },
+        "compile": {
+          "ref/netcoreapp2.0/System.Drawing.Common.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp2.0/System.Drawing.Common.dll": {
+            "assetType": "runtime",
+            "rid": "unix"
+          },
+          "runtimes/win/lib/netcoreapp2.0/System.Drawing.Common.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.NETCore.App/3.0.0-preview7-27823-03": {
+      "sha512": "k8EUZTUNrFaWzN2zd5LOin5c5i2TCpDp8h4kV2UebTMgeEhvutvhZF756WbVycBO67hD7Onrq38soqqCbq+3kw==",
+      "type": "package",
+      "path": "microsoft.netcore.app/3.0.0-preview7-27823-03",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "microsoft.netcore.app.3.0.0-preview7-27823-03.nupkg.sha512",
+        "microsoft.netcore.app.nuspec"
+      ]
+    },
+    "Microsoft.NETCore.Platforms/3.0.0-preview7.19320.1": {
+      "sha512": "956mV5h3URZMlQ17oxKRhr3fYk6qI3Ep+ViB24qvazr8K8cE0woZZ4VyowsBNYWGsJhcfOocYFZamXsI6RMoFA==",
+      "type": "package",
+      "path": "microsoft.netcore.platforms/3.0.0-preview7.19320.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netstandard1.0/_._",
+        "microsoft.netcore.platforms.3.0.0-preview7.19320.1.nupkg.sha512",
+        "microsoft.netcore.platforms.nuspec",
+        "runtime.json",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Drawing.Common/4.5.0-preview1-25718-03": {
+      "sha512": "LqnS1oesMxiig9qtw9fy9agg60dX71ywZ+DzDwbp4ktdMcos9fgwWO/J9XAuPdjcOfZvaDBWzzYvdSrVDHUU0A==",
+      "type": "package",
+      "path": "system.drawing.common/4.5.0-preview1-25718-03",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "ref/netcoreapp2.0/System.Drawing.Common.dll",
+        "runtimes/unix/lib/netcoreapp2.0/System.Drawing.Common.dll",
+        "runtimes/win/lib/netcoreapp2.0/System.Drawing.Common.dll",
+        "system.drawing.common.4.5.0-preview1-25718-03.nupkg.sha512",
+        "system.drawing.common.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.0": [
+      "Microsoft.NETCore.App >= 3.0.0-preview7-27823-03",
+      "System.Drawing.Common >= 4.5.0-preview1-25718-03"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Sturla\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "c:\\Users\\Sturla\\Desktop\\for fun\\Prosjekt10 - c#ImageColorChanger\\app\\app.csproj",
+      "projectName": "app",
+      "projectPath": "c:\\Users\\Sturla\\Desktop\\for fun\\Prosjekt10 - c#ImageColorChanger\\app\\app.csproj",
+      "packagesPath": "C:\\Users\\Sturla\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\Sturla\\Desktop\\for fun\\Prosjekt10 - c#ImageColorChanger\\app\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Sturla\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.App": {
+            "include": "None",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[3.0.0-preview7-27823-03, )",
+            "autoReferenced": true
+          },
+          "System.Drawing.Common": {
+            "target": "Package",
+            "version": "[4.5.0-preview1-25718-03, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        }
+      }
+    }
+  }
+}
