@@ -2,8 +2,7 @@
 
 Programvaren lar deg endre piksler i et bilde basert på RGB. Core WPF <br>
 
-![Eksempel bilde](eksempelBilder/endretBilde.JPG?raw=true "Eksempel bilde") <br>
+![Eksempelbilde før](eksempelBilder/orginalBilde.JPG?raw=true "Eksempelbilde før") <br>
 
-![Eksempel bilde](eksempelBilder/endretBilde.jpg?raw=true "Eksempel bilde")
+![Eksempelbilde etter](eksempelBilder/endretBilde.JPG?raw=true "Eksempelbilde etter")
 
-![Alt text](eksempelBilder/orginalBilde.jpg?raw=true "Title")
