@@ -1,6 +1,6 @@
-# ImageChangePixelColor
+# Image-change-color-by-pixel
 
-Programvaren lar deg endre piksler i et bilde basert på RGB. Core WPF <br>
+Programvaren lar deg endre piksler i et bilde basert på RGB. WPF applikasjon <br>
 
 ![Eksempelbilde før](eksempelBilder/orginalBilde.JPG?raw=true "Eksempelbilde før") <br>
 
